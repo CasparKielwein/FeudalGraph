@@ -21,3 +21,9 @@ Edges can but don't have to be directed.
 * *Rules* Node A {Person} rules Node B {Group]. Since we model a feudal society we assume that each Group is rules by one Person.
 * *Enemy* Node A {Person | Group} is an enemy of Node B {Person | Group}. 
 * *Ally* Node A {Person | Group} is an ally of Node B {Person | Group}. 
+
+## Assumptions
+* A Person can only be the child of two Persons who must be married. (yeah I know...)
+* A Person can only be married to exactly one other person.
+* Two nodes can only be connected by either the *Ally* or *Enemy* relationships.
+* A Group always has exactly one ruler.
