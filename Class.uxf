@@ -1,0 +1,28 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>230</x><y>269</y><w>100</w><h>30</h></coordinates><panel_attributes>State</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>399</y><w>100</w><h>60</h></coordinates><panel_attributes>Ruler
+-
+Title
+[Byname]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>269</y><w>100</w><h>50</h></coordinates><panel_attributes>Group
+--
++ Name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>399</y><w>100</w><h>50</h></coordinates><panel_attributes>Person
+--
++ Name</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>325</x><y>269</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>325</x><y>399</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>275</x><y>289</y><w>40</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>475</x><y>209</y><w>120</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Enemies
+m2=*</panel_attributes><additional_attributes>10;60;10;20;100;20;100;70;60;70</additional_attributes></element><element><id>Relation</id><coordinates><x>475</x><y>339</y><w>120</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Enemies
+m2=*</panel_attributes><additional_attributes>10;60;10;20;100;20;100;70;60;70</additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>189</y><w>170</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Allies
+m2=*</panel_attributes><additional_attributes>10;80;10;20;150;20;150;100;90;100</additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>319</y><w>170</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Allies
+m2=*</panel_attributes><additional_attributes>10;80;10;20;150;20;150;100;90;100</additional_attributes></element><element><id>Relation</id><coordinates><x>275</x><y>169</y><w>40</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=*</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>149</y><w>100</w><h>30</h></coordinates><panel_attributes>Town</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>239</y><w>80</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=*</panel_attributes><additional_attributes>50;40;10;40;10;10;60;10;60;30</additional_attributes></element><element><id>Relation</id><coordinates><x>335</x><y>149</y><w>120</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;130;30;130;30;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>440</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=2
+m2=*
+Childen</panel_attributes><additional_attributes>10;10;10;50;90;50;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>150</y><w>100</w><h>30</h></coordinates><panel_attributes>Notable Place</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>170</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=*</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>150</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=*</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>280</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>270</y><w>100</w><h>30</h></coordinates><panel_attributes>Region</panel_attributes><additional_attributes></additional_attributes></element></diagram>
