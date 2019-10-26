@@ -27,3 +27,18 @@ Edges can but don't have to be directed.
 * A Person can only be married to exactly one other person.
 * Two nodes can only be connected by either the *Ally* or *Enemy* relationships.
 * A Group always has exactly one ruler.
+
+# Abstract Concepts
+
+Concepts and concrete entities realising these concepts are defines in toml. <https://github.com/toml-lang/toml>.
+Each concept is defined as a section (in brackets).
+Each concept has one array "values" of entities realising the concept.
+Each entity is one String or an array of strings. All strings within a single array are considered to be synonyms of the same entity.
+Entities can reference other concepts by including the name of the concept in curly braces.
+Cycles of references are allowed.
+If an entity has the value of another concept, the two are equivalent. Thus concepts can be entitites of other concepts.
+
+```
+[name_of_this_concept]
+values = [ "name", ["name2", "synonym"]]
+```
